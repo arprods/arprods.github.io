@@ -1,17 +1,31 @@
-body {
+#bg {
+  width: 550px;
   background-color: #333;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-#container {
-  width: 70vw;
-  margin: 30vw auto;
+#wrapper {
+  color: #fff;
+  background:rgba(0,0,0,0.7);
+  font-weight: 100;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+#content {
+  margin: 20px;
 }
 
 h1 {
   text-align: center;
   color: #fff;
-  font-size: 5em;
-  letter-spacing: 8px;
+  font-size: 2em;
+  letter-spacing: 4px;
   font-family: 'Press Start 2P';
   font-weight: 400;
   /*Create overlap*/
